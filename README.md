@@ -192,24 +192,6 @@ Run with coverage:
 php artisan test --coverage
 ```
 
-## Scripts
-
-### Setup Script
-
-Automate initial setup:
-
-```bash
-chmod +x scripts/setup.sh
-./scripts/setup.sh
-```
-
-The script automates:
-- Creating `.env` from `.env.example` (if it doesn't exist)
-- Installing Composer dependencies
-- Generating application key (if not set)
-- Running database migrations
-- Clearing Laravel caches (config, cache, routes, views)
-
 ## Documentation
 
 - [Getting Started](docs/GETTING_STARTED.md) - Setup and installation guide
